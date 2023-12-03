@@ -9,7 +9,7 @@ export type Author = {
   }
   
   export type Section = {
-    title: Title
+    title: string
     content: string
   }
   
@@ -33,6 +33,5 @@ export type Author = {
   
     const response = await fetch(`${serverUrl}/arxiv/${id}`)
     const data: Paper = await response.json()
-  
     return data
   }

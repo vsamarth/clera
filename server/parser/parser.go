@@ -24,12 +24,19 @@ type Reference struct {
 	Year string `json:"year"`
 }
 
+type Section struct {
+	Title string `json:"title"`
+	Number string `json:"number"`
+	Content string `json:"content"`
+}
+
 type Paper struct {
 	ID string `json:"id"`
 	Title string `json:"title"`
 	Abstract string `json:"abstract"`
 	Authors []Author `json:"authors"`
 	References []Reference `json:"references"`
+	Sections []Section `json:"sections"`
 }
 
 func makeRequest(reader io.Reader) (*http.Response, error) {
@@ -65,6 +72,25 @@ type parsePaper struct {
 	Abstract string   `xml:"teiHeader>profileDesc>abstract>div>p"` 
 	Authors []parseAuthor  `xml:"teiHeader>fileDesc>sourceDesc>biblStruct>analytic>author"`
 	References []parseReference `xml:"text>back>div>listBibl>biblStruct"`
+	Section []parseSection `xml:"text>body>div"`
+}
+
+type parseSection struct {
+	Title string `xml:"head"`
+	Number string `xml:"n,attr"`
+	Paragraphs []parseParagraph `xml:"p"`
+}
+
+func (s *parseSection) Content() string {
+	content := ""
+	for _, p := range s.Paragraphs {
+		content += p.Text + "\n"
+	}
+	return content
+}
+
+type parseParagraph struct {
+	Text string `xml:",chardata"`
 }
 
 type parseReference struct {
@@ -151,10 +177,20 @@ func Parse(r io.Reader) (Paper, error) {
 		}
 	}
 
+	sections := make([]Section, len(paper.Section))
+	for i, section := range paper.Section {
+		sections[i] = Section{
+			Title: section.Title,
+			Number: section.Number,
+			Content: section.Content(),
+		}
+	}
+
 	return Paper{
 		Title: paper.Title,
 		Abstract: paper.Abstract,
 		Authors: authors,
 		References: references,
+		Sections: sections,
 	}, nil
 }

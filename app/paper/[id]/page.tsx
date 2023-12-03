@@ -7,7 +7,7 @@ export default async function Paper({
         id: string
     }
 }) {
-    const paperId  = params.id.replaceAll('.', '_')
+    const paperId = params.id.replaceAll('.', '_')
     const paper = await fetchPaper(paperId);
     return (
         <article className='mx-auto prose prose-xl prose-slate dark:prose-invert'>
@@ -20,11 +20,28 @@ export default async function Paper({
                 ))}
             </div>
             <p className='text-justify'>{paper.abstract}</p>
+            <Sections sections={paper.sections} />
             <h3>References</h3>
             <References refs={paper.references} />
         </article>
     )
 }
+
+interface SectionsProps {
+    sections: Section[]
+}
+
+function Sections({ sections }: SectionsProps) {
+    return (
+        <div>
+            {sections.map((section, idx) => (
+                <Section key={idx} section={section} />
+            ))}
+        </div>
+    )
+
+}
+
 
 interface SectionProps {
     section: Section
@@ -34,8 +51,7 @@ function Section({ section }: SectionProps) {
     return (
         <section>
             <h3 className='flex gap-4'>
-                <span>{section.title.number}</span>
-                <span>{section.title.text}</span>
+                <span>{section.title}</span>
             </h3>
             <p>{section.content}</p>
         </section>
