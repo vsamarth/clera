@@ -1,0 +1,1241 @@
+[
+    {
+      "title": "Quantifying attention flow in transformers",
+      "authors": [
+        {
+          "FirstName": "Samira",
+          "LastName": "Abnar"
+        },
+        {
+          "FirstName": "Willem",
+          "LastName": "Zuidema"
+        }
+      ],
+      "id": "b0",
+      "conference": "ACL",
+      "year": "2020"
+    },
+    {
+      "title": "Learning representations by maximizing mutual information across views",
+      "authors": [
+        {
+          "FirstName": "Philip",
+          "LastName": "Bachman"
+        },
+        {
+          "FirstName": "Devon",
+          "LastName": "Hjelm"
+        },
+        {
+          "FirstName": "William",
+          "LastName": "Buchwalter"
+        }
+      ],
+      "id": "b1",
+      "conference": "NeurIPS",
+      "year": "2019"
+    },
+    {
+      "title": "Adaptive input representations for neural language modeling",
+      "authors": [
+        {
+          "FirstName": "Alexei",
+          "LastName": "Baevski"
+        },
+        {
+          "FirstName": "Michael",
+          "LastName": "Auli"
+        }
+      ],
+      "id": "b2",
+      "conference": "ICLR",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b3",
+      "conference": "",
+      "year": ""
+    },
+    {
+      "title": "Attention augmented convolutional networks",
+      "authors": [
+        {
+          "FirstName": "B",
+          "LastName": "Bello"
+        },
+        {
+          "FirstName": "Q",
+          "LastName": "Zoph"
+        },
+        {
+          "FirstName": "A",
+          "LastName": "Le"
+        },
+        {
+          "FirstName": "J",
+          "LastName": "Vaswani"
+        },
+        {
+          "FirstName": "",
+          "LastName": "Shlens"
+        }
+      ],
+      "id": "b4",
+      "conference": "ICCV",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b5",
+      "conference": "Are we done with imagenet?",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b6",
+      "conference": "Language models are few-shot learners",
+      "year": "2020"
+    },
+    {
+      "title": "End-to-end object detection with transformers",
+      "authors": [
+        {
+          "FirstName": "Nicolas",
+          "LastName": "Carion"
+        },
+        {
+          "FirstName": "Francisco",
+          "LastName": "Massa"
+        },
+        {
+          "FirstName": "Gabriel",
+          "LastName": "Synnaeve"
+        },
+        {
+          "FirstName": "Nicolas",
+          "LastName": "Usunier"
+        },
+        {
+          "FirstName": "Alexander",
+          "LastName": "Kirillov"
+        },
+        {
+          "FirstName": "Sergey",
+          "LastName": "Zagoruyko"
+        }
+      ],
+      "id": "b7",
+      "conference": "ECCV",
+      "year": "2020"
+    },
+    {
+      "title": "Generative pretraining from pixels",
+      "authors": [
+        {
+          "FirstName": "Mark",
+          "LastName": "Chen"
+        },
+        {
+          "FirstName": "Alec",
+          "LastName": "Radford"
+        },
+        {
+          "FirstName": "Rewon",
+          "LastName": "Child"
+        },
+        {
+          "FirstName": "Jeff",
+          "LastName": "Wu"
+        },
+        {
+          "FirstName": "Heewoo",
+          "LastName": "Jun"
+        }
+      ],
+      "id": "b8",
+      "conference": "ICML",
+      "year": "2020"
+    },
+    {
+      "title": "A simple framework for contrastive learning of visual representations",
+      "authors": [
+        {
+          "FirstName": "Ting",
+          "LastName": "Chen"
+        },
+        {
+          "FirstName": "Simon",
+          "LastName": "Kornblith"
+        },
+        {
+          "FirstName": "Mohammad",
+          "LastName": "Norouzi"
+        },
+        {
+          "FirstName": "E",
+          "LastName": "Hinton"
+        }
+      ],
+      "id": "b9",
+      "conference": "ICML",
+      "year": "2020"
+    },
+    {
+      "title": "UNITER: UNiversal Image-TExt Representation Learning",
+      "authors": [
+        {
+          "FirstName": "Yen-Chun",
+          "LastName": "Chen"
+        },
+        {
+          "FirstName": "Linjie",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "Licheng",
+          "LastName": "Yu"
+        },
+        {
+          "FirstName": "El",
+          "LastName": "Kholy"
+        },
+        {
+          "FirstName": "Faisal",
+          "LastName": "Ahmed"
+        },
+        {
+          "FirstName": "Zhe",
+          "LastName": "Gan"
+        },
+        {
+          "FirstName": "Yu",
+          "LastName": "Cheng"
+        },
+        {
+          "FirstName": "Jingjing",
+          "LastName": "Liu"
+        }
+      ],
+      "id": "b10",
+      "conference": "ECCV",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b11",
+      "conference": "Generating long sequences with sparse transformers",
+      "year": "2019"
+    },
+    {
+      "title": "On the relationship between selfattention and convolutional layers",
+      "authors": [
+        {
+          "FirstName": "Jean-Baptiste",
+          "LastName": "Cordonnier"
+        },
+        {
+          "FirstName": "Andreas",
+          "LastName": "Loukas"
+        },
+        {
+          "FirstName": "Martin",
+          "LastName": "Jaggi"
+        }
+      ],
+      "id": "b12",
+      "conference": "ICLR",
+      "year": "2020"
+    },
+    {
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "authors": [
+        {
+          "FirstName": "J",
+          "LastName": "Deng"
+        },
+        {
+          "FirstName": "W",
+          "LastName": "Dong"
+        },
+        {
+          "FirstName": "R",
+          "LastName": "Socher"
+        },
+        {
+          "FirstName": "L",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "Kai",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "Li",
+          "LastName": "Fei-Fei"
+        }
+      ],
+      "id": "b13",
+      "conference": "CVPR",
+      "year": "2009"
+    },
+    {
+      "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+      "authors": [
+        {
+          "FirstName": "Jacob",
+          "LastName": "Devlin"
+        },
+        {
+          "FirstName": "Ming-Wei",
+          "LastName": "Chang"
+        },
+        {
+          "FirstName": "Kenton",
+          "LastName": "Lee"
+        },
+        {
+          "FirstName": "Kristina",
+          "LastName": "Toutanova"
+        }
+      ],
+      "id": "b14",
+      "conference": "NAACL",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b15",
+      "conference": "On robustness and transferability of convolutional neural networks",
+      "year": "2020"
+    },
+    {
+      "title": "Deep residual learning for image recognition",
+      "authors": [
+        {
+          "FirstName": "Kaiming",
+          "LastName": "He"
+        },
+        {
+          "FirstName": "Xiangyu",
+          "LastName": "Zhang"
+        },
+        {
+          "FirstName": "Shaoqing",
+          "LastName": "Ren"
+        },
+        {
+          "FirstName": "Jian",
+          "LastName": "Sun"
+        }
+      ],
+      "id": "b16",
+      "conference": "CVPR",
+      "year": "2016"
+    },
+    {
+      "title": "Momentum contrast for unsupervised visual representation learning",
+      "authors": [
+        {
+          "FirstName": "Kaiming",
+          "LastName": "He"
+        },
+        {
+          "FirstName": "Haoqi",
+          "LastName": "Fan"
+        },
+        {
+          "FirstName": "Yuxin",
+          "LastName": "Wu"
+        },
+        {
+          "FirstName": "Saining",
+          "LastName": "Xie"
+        },
+        {
+          "FirstName": "Ross",
+          "LastName": "Girshick"
+        }
+      ],
+      "id": "b17",
+      "conference": "CVPR",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b18",
+      "conference": "Axial attention in multidimensional transformers",
+      "year": "2019"
+    },
+    {
+      "title": "Relation networks for object detection",
+      "authors": [
+        {
+          "FirstName": "Han",
+          "LastName": "Hu"
+        },
+        {
+          "FirstName": "Jiayuan",
+          "LastName": "Gu"
+        },
+        {
+          "FirstName": "Zheng",
+          "LastName": "Zhang"
+        },
+        {
+          "FirstName": "Jifeng",
+          "LastName": "Dai"
+        },
+        {
+          "FirstName": "Yichen",
+          "LastName": "Wei"
+        }
+      ],
+      "id": "b19",
+      "conference": "CVPR",
+      "year": "2018"
+    },
+    {
+      "title": "Local relation networks for image recognition",
+      "authors": [
+        {
+          "FirstName": "Han",
+          "LastName": "Hu"
+        },
+        {
+          "FirstName": "Zheng",
+          "LastName": "Zhang"
+        },
+        {
+          "FirstName": "Zhenda",
+          "LastName": "Xie"
+        },
+        {
+          "FirstName": "Stephen",
+          "LastName": "Lin"
+        }
+      ],
+      "id": "b20",
+      "conference": "ICCV",
+      "year": "2019"
+    },
+    {
+      "title": "Ccnet: Criss-cross attention for semantic segmentation",
+      "authors": [
+        {
+          "FirstName": "Zilong",
+          "LastName": "Huang"
+        },
+        {
+          "FirstName": "Xinggang",
+          "LastName": "Wang"
+        },
+        {
+          "FirstName": "Yunchao",
+          "LastName": "Wei"
+        },
+        {
+          "FirstName": "Lichao",
+          "LastName": "Huang"
+        },
+        {
+          "FirstName": "Humphrey",
+          "LastName": "Shi"
+        },
+        {
+          "FirstName": "Wenyu",
+          "LastName": "Liu"
+        },
+        {
+          "FirstName": "S",
+          "LastName": "Huang"
+        }
+      ],
+      "id": "b21",
+      "conference": "ICCV",
+      "year": "2020"
+    },
+    {
+      "title": "Data-efficient image recognition with contrastive predictive coding",
+      "authors": [
+        {
+          "FirstName": "J",
+          "LastName": "Olivier"
+        },
+        {
+          "FirstName": "Aravind",
+          "LastName": "Hénaff"
+        },
+        {
+          "FirstName": "Jeffrey",
+          "LastName": "Srinivas"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "De Fauw"
+        },
+        {
+          "FirstName": "Carl",
+          "LastName": "Razavi"
+        },
+        {
+          "FirstName": "M",
+          "LastName": "Doersch"
+        },
+        {
+          "FirstName": "Aaron",
+          "LastName": "Ali Eslami"
+        },
+        {
+          "FirstName": "",
+          "LastName": "Van Den Oord"
+        }
+      ],
+      "id": "b22",
+      "conference": "ICML",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b23",
+      "conference": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+      "year": "2015"
+    },
+    {
+      "title": "Adam: A method for stochastic optimization",
+      "authors": [
+        {
+          "FirstName": "P",
+          "LastName": "Diederik"
+        },
+        {
+          "FirstName": "Jimmy",
+          "LastName": "Kingma"
+        },
+        {
+          "FirstName": "",
+          "LastName": "Ba"
+        }
+      ],
+      "id": "b24",
+      "conference": "ICLR",
+      "year": "2015"
+    },
+    {
+      "title": "Big transfer (BiT): General visual representation learning",
+      "authors": [
+        {
+          "FirstName": "Alexander",
+          "LastName": "Kolesnikov"
+        },
+        {
+          "FirstName": "Lucas",
+          "LastName": "Beyer"
+        },
+        {
+          "FirstName": "Xiaohua",
+          "LastName": "Zhai"
+        },
+        {
+          "FirstName": "Joan",
+          "LastName": "Puigcerver"
+        },
+        {
+          "FirstName": "Jessica",
+          "LastName": "Yung"
+        },
+        {
+          "FirstName": "Sylvain",
+          "LastName": "Gelly"
+        },
+        {
+          "FirstName": "Neil",
+          "LastName": "Houlsby"
+        }
+      ],
+      "id": "b25",
+      "conference": "ECCV",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b26",
+      "conference": "Learning multiple layers of features from tiny images",
+      "year": "2009"
+    },
+    {
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "authors": [
+        {
+          "FirstName": "Alex",
+          "LastName": "Krizhevsky"
+        },
+        {
+          "FirstName": "Ilya",
+          "LastName": "Sutskever"
+        },
+        {
+          "FirstName": "E",
+          "LastName": "Hinton"
+        }
+      ],
+      "id": "b27",
+      "conference": "NIPS",
+      "year": "2012"
+    },
+    {
+      "title": "Backpropagation applied to handwritten zip code recognition",
+      "authors": [
+        {
+          "FirstName": "Y",
+          "LastName": "Lecun"
+        },
+        {
+          "FirstName": "B",
+          "LastName": "Boser"
+        },
+        {
+          "FirstName": "J",
+          "LastName": "Denker"
+        },
+        {
+          "FirstName": "D",
+          "LastName": "Henderson"
+        },
+        {
+          "FirstName": "R",
+          "LastName": "Howard"
+        },
+        {
+          "FirstName": "W",
+          "LastName": "Hubbard"
+        },
+        {
+          "FirstName": "L",
+          "LastName": "Jackel"
+        }
+      ],
+      "id": "b28",
+      "conference": "Neural Computation",
+      "year": "1989"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b29",
+      "conference": "Gshard: Scaling giant models with conditional computation and automatic sharding",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b30",
+      "conference": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b31",
+      "conference": "Object-centric learning with slot attention",
+      "year": "2020"
+    },
+    {
+      "title": "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+      "authors": [
+        {
+          "FirstName": "Jiasen",
+          "LastName": "Lu"
+        },
+        {
+          "FirstName": "Dhruv",
+          "LastName": "Batra"
+        },
+        {
+          "FirstName": "Devi",
+          "LastName": "Parikh"
+        },
+        {
+          "FirstName": "Stefan",
+          "LastName": "Lee"
+        }
+      ],
+      "id": "b32",
+      "conference": "NeurIPS",
+      "year": "2019"
+    },
+    {
+      "title": "Exploring the limits of weakly supervised pretraining",
+      "authors": [
+        {
+          "FirstName": "Dhruv",
+          "LastName": "Mahajan"
+        },
+        {
+          "FirstName": "Ross",
+          "LastName": "Girshick"
+        },
+        {
+          "FirstName": "Vignesh",
+          "LastName": "Ramanathan"
+        },
+        {
+          "FirstName": "Kaiming",
+          "LastName": "He"
+        },
+        {
+          "FirstName": "Manohar",
+          "LastName": "Paluri"
+        },
+        {
+          "FirstName": "Yixuan",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "Ashwin",
+          "LastName": "Bharambe"
+        },
+        {
+          "FirstName": "Laurens",
+          "LastName": "Van Der Maaten"
+        }
+      ],
+      "id": "b33",
+      "conference": "ECCV",
+      "year": "2018"
+    },
+    {
+      "title": "Automated flower classification over a large number of classes",
+      "authors": [
+        {
+          "FirstName": "M",
+          "LastName": "Nilsback"
+        },
+        {
+          "FirstName": "A",
+          "LastName": "Zisserman"
+        }
+      ],
+      "id": "b34",
+      "conference": "ICVGIP",
+      "year": "2008"
+    },
+    {
+      "title": "Cats and dogs",
+      "authors": [
+        {
+          "FirstName": "M",
+          "LastName": "Omkar"
+        },
+        {
+          "FirstName": "Andrea",
+          "LastName": "Parkhi"
+        },
+        {
+          "FirstName": "Andrew",
+          "LastName": "Vedaldi"
+        },
+        {
+          "FirstName": "V",
+          "LastName": "Zisserman"
+        },
+        {
+          "FirstName": "",
+          "LastName": "Jawahar"
+        }
+      ],
+      "id": "b35",
+      "conference": "CVPR",
+      "year": "2012"
+    },
+    {
+      "title": "Image transformer",
+      "authors": [
+        {
+          "FirstName": "Niki",
+          "LastName": "Parmar"
+        },
+        {
+          "FirstName": "Ashish",
+          "LastName": "Vaswani"
+        },
+        {
+          "FirstName": "Jakob",
+          "LastName": "Uszkoreit"
+        },
+        {
+          "FirstName": "Lukasz",
+          "LastName": "Kaiser"
+        },
+        {
+          "FirstName": "Noam",
+          "LastName": "Shazeer"
+        },
+        {
+          "FirstName": "Alexander",
+          "LastName": "Ku"
+        },
+        {
+          "FirstName": "Dustin",
+          "LastName": "Tran"
+        }
+      ],
+      "id": "b36",
+      "conference": "ICML",
+      "year": "2018"
+    },
+    {
+      "title": "Acceleration of Stochastic Approximation by Averaging",
+      "authors": [
+        {
+          "FirstName": "T",
+          "LastName": "Polyak"
+        },
+        {
+          "FirstName": "B",
+          "LastName": "Juditsky"
+        }
+      ],
+      "id": "b37",
+      "conference": "SIAM J. Control Optim.",
+      "year": "1992"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b38",
+      "conference": "Weight standardization",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b39",
+      "conference": "Improving language understanding with unsupervised learning",
+      "year": "2018"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b40",
+      "conference": "Language models are unsupervised multitask learners",
+      "year": "2019"
+    },
+    {
+      "title": "Stand-alone self-attention in vision models",
+      "authors": [
+        {
+          "FirstName": "Prajit",
+          "LastName": "Ramachandran"
+        },
+        {
+          "FirstName": "Niki",
+          "LastName": "Parmar"
+        },
+        {
+          "FirstName": "Ashish",
+          "LastName": "Vaswani"
+        },
+        {
+          "FirstName": "Irwan",
+          "LastName": "Bello"
+        },
+        {
+          "FirstName": "Anselm",
+          "LastName": "Levskaya"
+        },
+        {
+          "FirstName": "Jon",
+          "LastName": "Shlens"
+        }
+      ],
+      "id": "b41",
+      "conference": "NeurIPS",
+      "year": "2019"
+    },
+    {
+      "title": "Revisiting unreasonable effectiveness of data in deep learning era",
+      "authors": [
+        {
+          "FirstName": "Chen",
+          "LastName": "Sun"
+        },
+        {
+          "FirstName": "Abhinav",
+          "LastName": "Shrivastava"
+        },
+        {
+          "FirstName": "Saurabh",
+          "LastName": "Singh"
+        },
+        {
+          "FirstName": "Abhinav",
+          "LastName": "Gupta"
+        }
+      ],
+      "id": "b42",
+      "conference": "ICCV",
+      "year": "2017"
+    },
+    {
+      "title": "Videobert: A joint model for video and language representation learning",
+      "authors": [
+        {
+          "FirstName": "Chen",
+          "LastName": "Sun"
+        },
+        {
+          "FirstName": "Austin",
+          "LastName": "Myers"
+        },
+        {
+          "FirstName": "Carl",
+          "LastName": "Vondrick"
+        },
+        {
+          "FirstName": "Kevin",
+          "LastName": "Murphy"
+        },
+        {
+          "FirstName": "Cordelia",
+          "LastName": "Schmid"
+        }
+      ],
+      "id": "b43",
+      "conference": "ICCV",
+      "year": "2019"
+    },
+    {
+      "title": "Fixing the train-test resolution discrepancy",
+      "authors": [
+        {
+          "FirstName": "Hugo",
+          "LastName": "Touvron"
+        },
+        {
+          "FirstName": "Andrea",
+          "LastName": "Vedaldi"
+        },
+        {
+          "FirstName": "Matthijs",
+          "LastName": "Douze"
+        },
+        {
+          "FirstName": "Herve",
+          "LastName": "Jegou"
+        }
+      ],
+      "id": "b44",
+      "conference": "NeurIPS",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b45",
+      "conference": "Fixing the train-test resolution discrepancy: Fixefficientnet",
+      "year": "2020"
+    },
+    {
+      "title": "Self-supervised learning of video-induced visual invariances",
+      "authors": [
+        {
+          "FirstName": "Josip",
+          "LastName": "Michael Tschannen"
+        },
+        {
+          "FirstName": "Marvin",
+          "LastName": "Djolonga"
+        },
+        {
+          "FirstName": "Aravindh",
+          "LastName": "Ritter"
+        },
+        {
+          "FirstName": "Neil",
+          "LastName": "Mahendran"
+        },
+        {
+          "FirstName": "Sylvain",
+          "LastName": "Houlsby"
+        },
+        {
+          "FirstName": "Mario",
+          "LastName": "Gelly"
+        },
+        {
+          "FirstName": "",
+          "LastName": "Lucic"
+        }
+      ],
+      "id": "b46",
+      "conference": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": "June 2020"
+    },
+    {
+      "title": "Attention is all you need",
+      "authors": [
+        {
+          "FirstName": "Ashish",
+          "LastName": "Vaswani"
+        },
+        {
+          "FirstName": "Noam",
+          "LastName": "Shazeer"
+        },
+        {
+          "FirstName": "Niki",
+          "LastName": "Parmar"
+        },
+        {
+          "FirstName": "Jakob",
+          "LastName": "Uszkoreit"
+        },
+        {
+          "FirstName": "Llion",
+          "LastName": "Jones"
+        },
+        {
+          "FirstName": "N",
+          "LastName": "Gomez"
+        },
+        {
+          "FirstName": "Łukasz",
+          "LastName": "Kaiser"
+        },
+        {
+          "FirstName": "Illia",
+          "LastName": "Polosukhin"
+        }
+      ],
+      "id": "b47",
+      "conference": "NIPS",
+      "year": "2017"
+    },
+    {
+      "title": "Axial-deeplab: Stand-alone axial-attention for panoptic segmentation",
+      "authors": [
+        {
+          "FirstName": "Huiyu",
+          "LastName": "Wang"
+        },
+        {
+          "FirstName": "Yukun",
+          "LastName": "Zhu"
+        },
+        {
+          "FirstName": "Bradley",
+          "LastName": "Green"
+        },
+        {
+          "FirstName": "Hartwig",
+          "LastName": "Adam"
+        },
+        {
+          "FirstName": "Alan",
+          "LastName": "Yuille"
+        },
+        {
+          "FirstName": "Liang-Chieh",
+          "LastName": "Chen"
+        }
+      ],
+      "id": "b48",
+      "conference": "ECCV",
+      "year": "2020"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b49",
+      "conference": "Axial-deeplab: Stand-alone axial-attention for panoptic segmentation",
+      "year": "2020"
+    },
+    {
+      "title": "Learning deep transformer models for machine translation",
+      "authors": [
+        {
+          "FirstName": "Qiang",
+          "LastName": "Wang"
+        },
+        {
+          "FirstName": "Bei",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "Tong",
+          "LastName": "Xiao"
+        },
+        {
+          "FirstName": "Jingbo",
+          "LastName": "Zhu"
+        },
+        {
+          "FirstName": "Changliang",
+          "LastName": "Li"
+        },
+        {
+          "FirstName": "F",
+          "LastName": "Wong"
+        },
+        {
+          "FirstName": "S",
+          "LastName": "Chao"
+        }
+      ],
+      "id": "b50",
+      "conference": "ACL",
+      "year": "2019"
+    },
+    {
+      "title": "Non-local neural networks",
+      "authors": [
+        {
+          "FirstName": "Xiaolong",
+          "LastName": "Wang"
+        },
+        {
+          "FirstName": "Ross",
+          "LastName": "Girshick"
+        },
+        {
+          "FirstName": "Abhinav",
+          "LastName": "Gupta"
+        },
+        {
+          "FirstName": "Kaiming",
+          "LastName": "He"
+        }
+      ],
+      "id": "b51",
+      "conference": "CVPR",
+      "year": "2018"
+    },
+    {
+      "title": "Scaling autoregressive video models",
+      "authors": [
+        {
+          "FirstName": "Dirk",
+          "LastName": "Weissenborn"
+        },
+        {
+          "FirstName": "Oscar",
+          "LastName": "Täckström"
+        },
+        {
+          "FirstName": "Jakob",
+          "LastName": "Uszkoreit"
+        }
+      ],
+      "id": "b52",
+      "conference": "ICLR",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b53",
+      "conference": "Visual transformers: Token-based image representation and processing for computer vision",
+      "year": "2020"
+    },
+    {
+      "title": "Group normalization",
+      "authors": [
+        {
+          "FirstName": "Yuxin",
+          "LastName": "Wu"
+        },
+        {
+          "FirstName": "Kaiming",
+          "LastName": "He"
+        }
+      ],
+      "id": "b54",
+      "conference": "ECCV",
+      "year": "2018"
+    },
+    {
+      "title": "Self-training with noisy student improves imagenet classification",
+      "authors": [
+        {
+          "FirstName": "Qizhe",
+          "LastName": "Xie"
+        },
+        {
+          "FirstName": "Minh-Thang",
+          "LastName": "Luong"
+        },
+        {
+          "FirstName": "Eduard",
+          "LastName": "Hovy"
+        },
+        {
+          "FirstName": "V",
+          "LastName": "Le"
+        }
+      ],
+      "id": "b55",
+      "conference": "CVPR",
+      "year": "2020"
+    },
+    {
+      "title": "S 4 L: Self-Supervised Semi-Supervised Learning",
+      "authors": [
+        {
+          "FirstName": "Xiaohua",
+          "LastName": "Zhai"
+        },
+        {
+          "FirstName": "Avital",
+          "LastName": "Oliver"
+        },
+        {
+          "FirstName": "Alexander",
+          "LastName": "Kolesnikov"
+        },
+        {
+          "FirstName": "Lucas",
+          "LastName": "Beyer"
+        }
+      ],
+      "id": "b56",
+      "conference": "ICCV",
+      "year": "2019"
+    },
+    {
+      "title": "",
+      "authors": null,
+      "id": "b57",
+      "conference": "A large-scale study of representation learning with the visual task adaptation benchmark",
+      "year": "2019"
+    },
+    {
+      "title": "Exploring self-attention for image recognition",
+      "authors": [
+        {
+          "FirstName": "Hengshuang",
+          "LastName": "Zhao"
+        },
+        {
+          "FirstName": "Jiaya",
+          "LastName": "Jia"
+        },
+        {
+          "FirstName": "Vladlen",
+          "LastName": "Koltun"
+        }
+      ],
+      "id": "b58",
+      "conference": "CVPR",
+      "year": "2020"
+    }
+  ]
+  
