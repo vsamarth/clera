@@ -27,7 +27,11 @@ type Reference struct {
 type Section struct {
 	Title string `json:"title"`
 	Number string `json:"number"`
-	Content string `json:"content"`
+	Paragraphs []Paragraph `json:"paragraphs"`
+}
+
+type Paragraph struct {
+	Text string `json:"text"`
 }
 
 type Paper struct {
@@ -81,12 +85,12 @@ type parseSection struct {
 	Paragraphs []parseParagraph `xml:"p"`
 }
 
-func (s *parseSection) Content() string {
-	content := ""
-	for _, p := range s.Paragraphs {
-		content += p.Text + "\n"
+func (s *parseSection) paragraphs() []Paragraph {
+	p := make([]Paragraph, len(s.Paragraphs))
+	for i, paragraph := range s.Paragraphs {
+		p[i] = Paragraph(paragraph)
 	}
-	return content
+	return p
 }
 
 type parseParagraph struct {
@@ -182,7 +186,7 @@ func Parse(r io.Reader) (Paper, error) {
 		sections[i] = Section{
 			Title: section.Title,
 			Number: section.Number,
-			Content: section.Content(),
+			Paragraphs: section.paragraphs(),
 		}
 	}
 

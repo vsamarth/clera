@@ -1,12 +1,21 @@
-import { Paper, Section, Reference, Author, fetchPaper } from "@/lib/server";
+import { Paper, Section, Reference, Author } from "@/lib/types";
+import { fetcher } from "@/lib/utils";
+
+interface PaperProps {
+    params: { id: string }
+}
+
+async function fetchPaper(id: string): Promise<Paper> {
+    const serverURL = 'http://localhost:8080';
+    const res = await fetcher(`${serverURL}/arxiv/${id}`, {
+        cache: 'no-cache'
+    });
+    return res as Paper;
+}
 
 export default async function Paper({
     params
-}: {
-    params: {
-        id: string
-    }
-}) {
+}: PaperProps) {
     const paperId = params.id.replaceAll('.', '_')
     const paper = await fetchPaper(paperId);
     return (
@@ -19,6 +28,7 @@ export default async function Paper({
                     </span>
                 ))}
             </div>
+            <h4 className="text-center">Abstract</h4>
             <p className='text-justify'>{paper.abstract}</p>
             <Sections sections={paper.sections} />
             <h3>References</h3>
@@ -53,7 +63,11 @@ function Section({ section }: SectionProps) {
             <h3 className='flex gap-4'>
                 <span>{section.title}</span>
             </h3>
-            <p>{section.content}</p>
+            {section.paragraphs.map((paragraph, idx) => (
+                <p key={idx} className='text-justify'>
+                    {paragraph.text}
+                </p>
+            ))}
         </section>
     )
 }

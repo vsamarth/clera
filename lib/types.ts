@@ -10,7 +10,11 @@ export type Author = {
   
   export type Section = {
     title: string
-    content: string
+    paragraphs: Paragraph[]
+  }
+
+  export type Paragraph = {
+    text: string
   }
   
   export type Reference = {
@@ -26,12 +30,4 @@ export type Author = {
     authors: Author[],
     sections: Section[],
     references: Reference[]
-  }
-
-  export async function fetchPaper(id: string): Promise<Paper> {
-    const serverUrl = 'http://localhost:8080'
-  
-    const response = await fetch(`${serverUrl}/arxiv/${id}`)
-    const data: Paper = await response.json()
-    return data
   }
